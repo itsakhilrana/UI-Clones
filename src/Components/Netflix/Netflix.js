@@ -4,15 +4,20 @@ import NetflixImg from '../../Images/netflix.jpg'
 
 const Netflix = () => {
   return (
-    <div className="Netflix p-8 relative">
+    <div className="Netflix px-16 py-8 relative">
       {/* Navbar */}
       <div className="navbar flex relative z-20">
         <div className="logo mr-auto font-bold text-3xl text-red-500">
           Netflix
         </div>
-        <div className="links">
-          <a>English</a>
-          <a>Sign Up</a>
+        <div className="links space-x-10">
+          <select className="bg-black text-white focus:outline-none p-2 rounded-sm">
+            <option className="bg-gray-400 bg-opacity-60">English</option>
+            <option className="bg-gray-400 bg-opacity-60">Hindi</option>
+          </select>
+          <a href="/" className=" bg-red-600 text-white rounded-sm p-2">
+            Sign Up
+          </a>
         </div>
       </div>
 
