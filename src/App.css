@@ -7,3 +7,8 @@
     rgba(0, 0, 0, 0.8) 100%
   );
 }
+
+
+.box :last-child{
+  color: brown;
+}

@@ -23,7 +23,7 @@ const Netflix = () => {
 
       {/* Cover Img */}
       <div className="coverImg absolute top-0 right-0 left-0">
-        <img src={NetflixImg} className="object-cover" />
+        <img src={NetflixImg} alt="cover" className="object-cover" />
         <div className="imgGradient absolute inset-0"></div>
       </div>
 
